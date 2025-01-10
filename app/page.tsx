@@ -55,7 +55,7 @@ export default function WeddingCountdown() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-white" aria-live="polite">
           {timerComponents.length ? timerComponents : <span className="text-4xl md:text-6xl font-bold col-span-4">¡Es hora!</span>}
         </div>
-        <p className="mt-8 text-xl md:text-2xl text-white">21 de febrero de 2026 a las 17:00</p>
+        <p className="mt-8 text-xl md:text-2xl text-white">21 de febrero de 2026 a las 16:00</p>
       </div>
     </main>
   )
