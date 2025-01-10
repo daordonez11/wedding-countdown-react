@@ -17,7 +17,7 @@ export default function WeddingCountdown() {
   }, [])
 
   function calculateTimeLeft() {
-    const difference = +new Date('2026-02-21T22:00:00Z') - +new Date()
+    const difference = +new Date('2026-02-21T21:00:00Z') - +new Date()
     let timeLeft = {}
 
     if (difference > 0) {
